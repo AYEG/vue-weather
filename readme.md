@@ -14,9 +14,10 @@ $ export API_KEY=<your-openweathermap-api-key>
 ```
 $ echo $API_KEY
 ```
-Starting the app with quasar (you need to have quasar-cli installed)
+Start the app  (you need to have quasar-cli )
+```
 $ quasar dev
-
+```
 Quasar.conf.js has been configured to import API_KEY, 
 Example:https://quasar-framework.org/guide/app-quasar.conf.js.html#Example-setting-env-for-dev-build
 
