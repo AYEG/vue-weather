@@ -1,0 +1,71 @@
+// app global css
+
+/* css grid layout   */
+.grid-container{
+ display: grid;
+ height:100vh;
+ width:100vw;
+ color: Darkslategrey;
+//  background-color: #ecf5f4;
+ background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+ grid-gap: 3.5%;
+ grid-template-columns: 0.5fr 3.5fr 0.5fr;
+ grid-template-rows: 2fr 3fr 2fr 1fr;
+
+}
+// card transparant background
+.bg-brand{
+	background: rgba(251,252,252, 0.375)
+}
+#time{
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+	font-size: 1.5em;
+}
+.flex-container{
+ display:flex;
+ flex-direction: row;
+ margin-top: 1rem;
+ color: darkslategrey;
+ padding-top: 0.3em;
+ padding-bottom: 0.3em;
+}
+.flex-container h4 { 
+	display: inline;
+	position: relative;
+	font: 1.55rem Arial, Sans-Serif;;
+	letter-spacing: 0.10em;
+	color: darkslategrey;
+    margin-bottom: 0;
+	margin-top: 0;
+}
+.flex-container p{
+	margin-right: 0.5rem;
+	font: 1.25em Arial, Sans-Serif;
+	// set line-height to prevent  text 'content jumping' due to character height
+	line-height: 1.2em;
+}
+// result title
+.flex-container h5 { 
+	display: inline;
+	font: 1.55em Arial, Sans-Serif;
+	letter-spacing: 0.10em;
+	color: darkslategrey
+    margin-bottom: 0;
+	margin-top: 0.5em;
+}
+
+.flex-container p:first-letter {
+    text-transform: uppercase;
+}
+.flex-container h5:first-letter {
+    text-transform: uppercase;
+}
+.flex-item-narrow{
+  width: calc(100% / 3 * 0.3);
+}
+.flex-item-wide{
+   width: calc(100% / 3 * 2);
+  //  tell flex child to take up all available space and grow to rest of container
+   flex: 1;
+}
