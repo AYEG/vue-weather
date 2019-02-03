@@ -12,14 +12,13 @@ $ export API_KEY=<your-openweathermap-api-key>
 Check if the key is correct and available to the environment by running
 $ echo $API_KEY
 
-Start the app
+Starting the app with quasar (you need to have quasar-cli installed)
 $ quasar dev
 
-- quasar.conf.js has been configured to import API_KEY, 
+Quasar.conf.js has been configured to import API_KEY, 
 Example:https://quasar-framework.org/guide/app-quasar.conf.js.html#Example-setting-env-for-dev-build
 
 # Notes: 
-
 #  NPM Packages that were used
 eslint
 vuevalidate
@@ -27,10 +26,10 @@ dotenv
 ts-loader (enable webpack to import .ts files)
 
 # Typescript Config 
-example used: https://github.com/kevinmarrec/quasar-typescript/blob/master/quasar.conf.js
+Example used: https://github.com/kevinmarrec/quasar-typescript/blob/master/quasar.conf.js
 
 # Icons
-quasar default material icons can be found here: https://material.io/tools/icons/?style=round 
+Quasar default material icons can be found here: https://material.io/tools/icons/?style=round 
 
 - Loading weather icons into quasar https://quasar-framework.org/components/icons.html 
 1. Create a new project at https://icomoon.io and add 'meteocons' from the available libraries
@@ -42,7 +41,7 @@ quasar default material icons can be found here: https://material.io/tools/icons
 7. Navigate to node_modules/quasar-extras and copy the icomoon folder to that location 
 8. Use the icons in your component <q-icon name="ICON"> 
 
-# Looking up icon names based on day/night + their short-code
+# Lookup icon names
 1.  using a json file to find the icon names from their associated short-codes i.e. https://gist.github.com/tbranyen/62d974681dea8ee0caa1
 2.  imported the json file into the project i.e. 
 import * as icons from '../../assets/icons.json' 
