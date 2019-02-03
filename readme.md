@@ -6,12 +6,14 @@ Built in VueJS with Quasar-Framework 0.17.23
 - cd into vue_weather
 - sign up for an api key https://openweathermap.org/current 
 
-Open a terminal and run the following command
+- Open a terminal and run the following command
+```
 $ export API_KEY=<your-openweathermap-api-key>
-
-Check if the key is correct and available to the environment by running
+```
+- Check if the key is correct and available to the environment by running
+```
 $ echo $API_KEY
-
+```
 Starting the app with quasar (you need to have quasar-cli installed)
 $ quasar dev
 
@@ -21,12 +23,12 @@ Example:https://quasar-framework.org/guide/app-quasar.conf.js.html#Example-setti
 ![Alt text](1.jpg?raw=true "cityweather")
 ![Alt text](2.jpg?raw=true "search")
 
-# Notes: 
-#  NPM Packages that were used
-eslint
-vuevalidate
-dotenv
-ts-loader (enable webpack to import .ts files)
+
+#  Installed NPM Packages
+- eslint
+- vuevalidate
+- dotenv
+- ts-loader (enable webpack to import .ts files)
 
 # Typescript Config 
 Example used: https://github.com/kevinmarrec/quasar-typescript/blob/master/quasar.conf.js
