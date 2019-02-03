@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+  "sourceMap": true,
+  "target": "es6",
+  "strict": true,
+  "experimentalDecorators": true,
+  "module": "es6",
+  "moduleResolution": "node",
+  "isolatedModules": false,
+  "noImplicitThis": true,
+  "strictNullChecks": true,
+  "removeComments": true,
+  "suppressImplicitAnyIndexErrors": true,
+  // enable json files
+  "resolveJsonModule": true,
+  "esModuleInterop": true,
+  
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "compileOnSave": true
+}
+  
