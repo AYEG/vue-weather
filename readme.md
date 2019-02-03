@@ -18,8 +18,8 @@ $ quasar dev
 Quasar.conf.js has been configured to import API_KEY, 
 Example:https://quasar-framework.org/guide/app-quasar.conf.js.html#Example-setting-env-for-dev-build
 
-![Alt text](2.jpg?raw=true "search")
 ![Alt text](1.jpg?raw=true "cityweather")
+![Alt text](2.jpg?raw=true "search")
 
 # Notes: 
 #  NPM Packages that were used
